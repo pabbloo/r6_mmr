@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "ScoutCond";
+  src: url(ScoutCond.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  font-family: "ScoutCond";
+  color: white;
+  font-weight: normal;
+}
+
+table#glowna,
+table#glowna td,
+table#glowna th {
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#guzik {
+  font-size: 28pt;
+  background-color: #36a9e1;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  font-family: "ScoutCond";
+  cursor: pointer;
+  text-align: center;
+  width: 250px;
+}
