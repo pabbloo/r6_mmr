@@ -348,7 +348,7 @@
 						echo "maximum: new Date(" . $rok . ", " . $mm . ", " . $dzien . ", " . $godzina . ", " . $minuta . "),";
 					}
 					?>
-					valueFormatString: "DD-MM",
+					valueFormatString: "DD-MM HH:mm",
 					labelFontColor: "white",
 					crosshair: {
 						enabled: true,
