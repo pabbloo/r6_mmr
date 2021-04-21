@@ -7,13 +7,18 @@
 	<script type="text/javascript" src="canvasjs.min.js"></script>
 	<script src="jquery-3.4.1.min.js"></script>
 	<link rel="stylesheet" href="styles.css">
-	<p style="color:grey;right:20px;position:absolute">v2.0<br><i>by pabbloo<br>2021</i></p>
-	<link rel="icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/obrazki/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/obrazki/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/obrazki/favicon-16x16.png">
+	<link rel="manifest" href="/obrazki/site.webmanifest">
+
 </head>
 
-<body style="background-image: url('background.jpg');">
+<body style="background-image: url('obrazki/background.jpg');">
+	<p style="color:grey;right:20px;position:absolute">v2.0<br><i>by pabbloo<br>2021</i></p>
+
 	<div id="header" style="font-size:58px; padding-top:10px;padding-left:10px">
-		<img id="header_img" src="r6logo.png" style="height:64px" />
+		<img id="header_img" src="obrazki/r6logo.png" style="height:64px" />
 		<span style="position:relative; bottom:10px;left:10px">MMR LEVEL</span>
 	</div>
 
@@ -86,9 +91,9 @@
 					<br>
 					WYKRESY Z POPRZEDNICH SEZONÓW:
 					<br>
-					<a href="Y5S2.png">Y5S2</a> |
-					<a href="Y5S3.png">Y5S3</a> |
-					<a href="Y5S4.png">Y5S4</a>
+					<a href="obrazki/Y5S2.png">Y5S2</a> |
+					<a href="obrazki/Y5S3.png">Y5S3</a> |
+					<a href="obrazki/Y5S4.png">Y5S4</a>
 					<br><br><br>
 					<span id="diff">SPRAWDZANIE RÓZNIC...</span>
 					<br><br><br>DANE NIEAKTUALNE?<br>
@@ -221,14 +226,14 @@
 
 					if ((int)$ch < 0) {
 						echo "var img = document.createElement('img');";
-						echo "img.src = 'loss.png';";
+						echo "img.src = 'obrazki/loss.png';";
 						echo "img.style.width = '24px';";
 						echo "img.style.height = '24px';";
 						echo "var src = document.getElementById('ch_i_" . $nick . "');";
 						echo "src.appendChild(img);";
 					} else {
 						echo "var img = document.createElement('img');";
-						echo "img.src = 'gain.png';";
+						echo "img.src = 'obrazki/gain.png';";
 						echo "img.style.width = '24px';";
 						echo "img.style.height = '24px';";
 						echo "var src = document.getElementById('ch_i_" . $nick . "');";
