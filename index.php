@@ -322,6 +322,7 @@
 
 			if (Date.now() - datazbazy.getTime() < 600000) {
 				document.getElementById("guzik").disabled = true;
+				document.getElementById("guzik").style.backgroundColor = "grey";
 			}
 		}
 
