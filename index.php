@@ -94,7 +94,7 @@
 					<a href="obrazki/Y5S2.png">Y5S2</a> |
 					<a href="obrazki/Y5S3.png">Y5S3</a> |
 					<a href="obrazki/Y5S4.png">Y5S4</a> |
-					<a href="obrazki/Y5S4.png">Y6S1</a>
+					<a href="obrazki/Y6S1.png">Y6S1</a>
 					<br><br><br>
 					<span id="diff">SPRAWDZANIE RÓZNIC...</span>
 					<br><br><br>DANE NIEAKTUALNE?<br>
