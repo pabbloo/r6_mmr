@@ -15,7 +15,7 @@
 </head>
 
 <body style="background-image: url('obrazki/background.jpg');">
-	<p style="color:grey;right:20px;position:absolute">v2.0<br><i>by pabbloo<br>2021</i></p>
+	<p style="color:grey;right:20px;position:absolute">v2.1<br><i>by pabbloo<br>2021</i></p>
 
 	<div id="header" style="font-size:58px; padding-top:10px;padding-left:10px">
 		<img id="header_img" src="obrazki/r6logo.png" style="height:64px" />
@@ -87,13 +87,14 @@
 		<table style="border: 0px;text-align:left" id="druga">
 			<tr>
 				<th style="font-size:20pt; width: 400px;height:340px;font-weight: normal;">
-					AKTUALNY SEZON TO Y6S1.
+					AKTUALNY SEZON TO Y6S2.
 					<br>
 					WYKRESY Z POPRZEDNICH SEZONÓW:
 					<br>
 					<a href="obrazki/Y5S2.png">Y5S2</a> |
 					<a href="obrazki/Y5S3.png">Y5S3</a> |
-					<a href="obrazki/Y5S4.png">Y5S4</a>
+					<a href="obrazki/Y5S4.png">Y5S4</a> |
+					<a href="obrazki/Y5S4.png">Y6S1</a>
 					<br><br><br>
 					<span id="diff">SPRAWDZANIE RÓZNIC...</span>
 					<br><br><br>DANE NIEAKTUALNE?<br>
@@ -310,7 +311,7 @@
 				return Math.floor(Math.random() * (max - min)) + min;
 			}
 
-			random = getRandomInt(300, 311);
+			random = getRandomInt(1, 10);
 			var img = document.createElement('img');
 			img.src = 'memy/' + random + '.jpg';
 			img.style.width = '340px';
