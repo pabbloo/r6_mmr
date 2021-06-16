@@ -311,7 +311,7 @@
 				return Math.floor(Math.random() * (max - min)) + min;
 			}
 
-			random = getRandomInt(1, 10);
+			random = getRandomInt(1, 12);
 			var img = document.createElement('img');
 			img.src = 'memy/' + random + '.jpg';
 			img.style.width = '340px';
